@@ -15,3 +15,4 @@ MAILER_SECRET_KEY=
 
 PROD=false
 ```
+
