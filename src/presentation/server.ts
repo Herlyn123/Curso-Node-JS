@@ -3,7 +3,6 @@ import { LogRepositoryImpl } from "../infrastructure/repositories/log.repository
 import { EmailService } from './email/email.service';
 import { SendEmailLogs } from '../domain/use-cases/email/send-email-logs';
 import { CronService } from './cron/cron-service';
-import { CheckService } from '../domain/use-cases/checks/check-service';
 import { MongoLogDatasource } from '../infrastructure/datasources/mongo-log.datasource';
 import { LogServerityLevel } from '../domain/entities/log.entity';
 import { PostgresLogDatasource } from '../infrastructure/datasources/postgres-log.datasource';
